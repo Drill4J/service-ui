@@ -1,0 +1,2 @@
+JS_AGENT_HOST=host.docker.internal:8080
+RP_UI_BUILD_VERSION=5.2.2

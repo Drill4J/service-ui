@@ -1,0 +1,26 @@
+{
+  "sources": {
+    "pattern": [
+      "app/src/**/*.js",
+      "app/src/**/*.jsx"
+    ],
+    "ignore": [
+    ]
+  },
+  "bundle": {
+    "pattern": "app/build/**/main*.js",
+    "ignore": [
+    ]
+  },
+  "sourcemaps": {
+    "pattern": "app/build/**/main*.map",
+    "ignore": [
+    ]
+  },
+  "output": {
+    "agentId": "rp-service-ui",
+    "agentApiUrl": "http://jsagent:9404",
+    "groupId": "test",
+    "omitPathPrefix": "app/"
+  }
+}
